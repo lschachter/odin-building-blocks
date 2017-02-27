@@ -15,4 +15,4 @@ def caesar_cipher(message, key)
 	puts codedMessage
 end
 
-caesar_cipher("Hi What's up my name is BOBBYZ BABY0923U434IJ53;4LJN34U2", 27)
+caesar_cipher("What a string!", 5)
