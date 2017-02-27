@@ -13,8 +13,11 @@ def stock_picker(stocks)
 			min_day = day
 		end
 	end
+	result = [buy_day,max_diff_day]
 	puts "Max difference: #{max_diff}"
-	puts "Days of buy and sell: [#{buy_day},#{max_diff_day}]"
+	puts "Days of buy and sell: #{result}"
+	result
+	
 end
 
 stock_picker([17,3,6,9,15,8,6,1,18,0])
